@@ -20,7 +20,7 @@ export function Flag(props) {
 
     return (
         <>
-            <Grid item xl={3} sm={4} xs={6}>
+            <Grid item xl={3} sm={6} xs={12}>
                 <Paper className={classes.paper} spacing={2}>
                     <Card variant="outlined">
                         <CardMedia
