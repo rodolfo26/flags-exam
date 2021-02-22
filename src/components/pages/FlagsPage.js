@@ -54,11 +54,11 @@ export function FlagsPage(props) {
                                 <Flag country={country}/>
                             )
                         }
-                        <Box textAlign="center" flexGrow={1}>
-                            <Button onClick={() => scroll()}>Scroll for more</Button>
-                        </Box>
                     </Grid>
                 }
+            </Box>
+            <Box textAlign="center" flexGrow={1}>
+                <Button onClick={() => scroll()}>Scroll for more</Button>
             </Box>
         </Box>
     )
